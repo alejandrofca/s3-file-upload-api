@@ -7,7 +7,7 @@ provider:
   region: us-west-2
 
 custom:
-  fileUploadBucketName: ${self:service}-bucket-${self:provider.stage}
+  fileUploadBucketName: ${self:service}-1bucket1-${self:provider.stage}
 
 plugins:
   - serverless-iam-roles-per-function
